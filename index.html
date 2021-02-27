@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Meme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+
+    <!-- Page Content -->
+
+
+    <div class="content-section-b colorful-bg" style="min-height:100%; background-color:#f1f1f1">
+
+        <div class="mydiv text-center">
+		<h2>Customize your meme</h2>
+		<span class="tm"><img src="template.jpg"></span>
+		<form id="ajform" action="createimage.php" enctype="multipart/form-data" method="post">
+		<div class="form-group">
+		<div class="ajnotice"></div>
+		<input type="file" name="dimage" style="font-size:14px; padding-top:2px; line-height:20px" class="form-control" required>
+		<input type="text" name="name" class="form-control" placeholder="Your Names" required>
+		<select name="mssg" class="form-control" required>
+			<option value=""></option>
+			<option value="1">As I behold the King, I have kingdom authority</option>
+			<option value="2">The more I behold the King, the more I have access to greater glory</option>
+			<option value="3">As I behold the King, I declare with my heart and mouth that Jesus is King over all the nations</option>
+			<option value="4">As I behold the King, I know who I am in Him and I am Victorious</option>
+			<option value="5">As I behold the King, I triumph always because He causes me to triumph</option>
+		
+		</select>
+		<input class="form-control btn btn-warning uppro" type="submit" value="CREATE MEME">
+		
+		</div>
+		</form>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+    <!-- jQuery -->
+<script src="js/jquery.js"></script>
+<script type='text/javascript' src='js/jquery.form.js'></script>
+<script type='text/javascript' src='js/script.js'></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
